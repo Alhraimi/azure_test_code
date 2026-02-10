@@ -1,0 +1,9 @@
+[build-system]
+requires = ["pyinstaller", "Pillow", "requests"]
+
+[tool.pyinstaller]
+name = "InspirationApp"
+onefile = true
+windowed = true
+noupx = true
+console = false
